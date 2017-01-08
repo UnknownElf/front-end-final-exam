@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+  /* font-family: 'Noto Sans TC', sans-serif; */
+
+  /* font-weight: normal; 字型的 weight 值，可以為 100、 200、 300 Light、 400 Normal、 500、 600 Semi-Blod、 700 Blod、 800 Extra-Bold、 900 */
+
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+
+
+.navbar{
+  height: 80px;
+}
+
+#nav_title{
+  font-size: 48px;
+}
+
+.nav_element{
+  font-size: 24px;
+}
+
+
+
+#myJumbotron{
+  height:920px;
+  background-color: black;
+  background-image:url(../image/1200.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#jumbo_title{
+  color: white;
+  font-size: 140px;
+}
+
+#jumbo_subtitle{
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#jumbo_content{
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#jumbo_or{
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+
+
+.content_title{
+  height: 400px;
+  background-color: rgb(27,27,27);
+}
+
+.content_title h1{
+  font-size: 100px;
+  color: white;
+}
+
+.content_image{
+  height: 400px;
+  background-size: cover;
+}
+
+#img_band{
+  background-image:url(../image/band.png);
+}
+#img_music{
+  background-image:url(../image/music.png);
+}
+#img_deploy{
+  background-image:url(../image/deploy.png);
+}
+#img_history{
+  background-image:url(../image/history.png);
+}
+
+
+
+footer{
+  height: 130px;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+}
