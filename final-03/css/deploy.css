@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+  /* font-family: 'Noto Sans TC', sans-serif; */
+
+  /* font-weight: normal; 字型的 weight 值，可以為 100、 200、 300 Light、 400 Normal、 500、 600 Semi-Blod、 700 Blod、 800 Extra-Bold、 900 */
+
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+  background-color: rgb(50,7,2);
+}
+
+
+
+.navbar{
+  height: 80px;
+  border-style: none;
+  background-color: black;
+}
+
+#nav_title{
+  font-size: 48px;
+}
+
+.nav_element{
+  font-size: 24px;
+}
+
+
+
+#invisible-distance{
+  height: 80px;
+}
+
+
+
+.bread{
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}
+
+.bread_link{
+  color: rgb(230, 171, 30);
+}
+
+
+
+#area_2{
+  align: right;
+}
+
+.content_area{
+  height: 340px;
+  width: 450px;
+  background-color: rgb(67,67,67);
+}
+
+.content_area h1{
+  font-size: 48px;
+  color: white;
+}
+
+
+
+footer{
+  height: 130px;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+}
