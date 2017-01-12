@@ -4,6 +4,10 @@
   /* font-weight: normal; 字型的 weight 值，可以為 100、 200、 300 Light、 400 Normal、 500、 600 Semi-Blod、 700 Blod、 800 Extra-Bold、 900 */
 
 
+
+
+
+
 body{
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
@@ -20,10 +24,12 @@ body{
 
 #nav_title{
   font-size: 48px;
+  margin-top: 10px;
 }
 
 .nav_element{
   font-size: 24px;
+  margin-top: 19px;
 }
 
 
@@ -34,12 +40,18 @@ body{
 
 
 
+
+
 #myJumbotron{
   height:920px;
   background-color: black;
-  background-image:url(../image/1200.png);
+  background-image:url(../image/1200_new.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.margin450{
+  margin-top: 450px;
 }
 
 #jumbo_title{
@@ -65,6 +77,36 @@ body{
   font-weight: normal;
 }
 
+@media screen and (max-width: 992px){
+
+  #myJumbotron{
+    height:589px;
+    background-color: black;
+    background-image:url(../image/768主頁.png);
+  }
+
+  .margin450{
+    margin-top: 280px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+  #myJumbotron{
+    height:368px;
+    background-color: black;
+    background-image:url(../image/480主頁.png);
+  }
+
+  .margin450{
+    margin-top: 900px;
+  }
+
+}
+
+
 
 
 .content_title{
@@ -73,14 +115,46 @@ body{
 }
 
 .content_title h1{
+  margin-top: 125px;
   font-size: 100px;
   color: white;
 }
-
+.content_title:hover{
+  background-color: gray;
+}
 .content_image{
   height: 400px;
   background-size: cover;
 }
+
+@media screen and (max-width: 992px){
+
+  .content_title{
+    height: 180px;
+  }
+
+  .content_title h1{
+    margin-top: 57px;
+    font-size: 64px;
+    color: white;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  .content_title{
+    height: 225px;
+  }
+
+  .content_title h1{
+    margin-top: 80px;
+    font-size: 64px;
+    color: white;
+  }
+
+}
+
 
 #img_band{
   background-image:url(../image/band.png);
@@ -102,4 +176,7 @@ footer{
   background-color: black;
   font-size: 18px;
   color: white;
+}
+footer p{
+  margin-top: 20px;
 }

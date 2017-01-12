@@ -20,10 +20,12 @@ body{
 
 #nav_title{
   font-size: 48px;
+  margin-top: 10px;
 }
 
 .nav_element{
   font-size: 24px;
+  margin-top: 19px;
 }
 
 
@@ -53,7 +55,8 @@ body{
 }
 
 .content_area h1{
-  font-size: 48px;
+  padding-top: 100px;
+  font-size: 72px;
   color: white;
 }
 
@@ -61,12 +64,20 @@ body{
   font-size: 24px;
   color: white;
 }
-
-
+.content_area:hover{
+  background-color: gray;
+  text-decoration: none;
+}
+.mb20{
+  margin-bottom: 20px;
+}
 
 footer{
   height: 130px;
   background-color: black;
   font-size: 18px;
   color: white;
+}
+footer p{
+  margin-top: 20px;
 }

@@ -20,10 +20,12 @@ body{
 
 #nav_title{
   font-size: 48px;
+  margin-top: 10px;
 }
 
 .nav_element{
   font-size: 24px;
+  margin-top: 19px;
 }
 
 
@@ -45,17 +47,28 @@ body{
 }
 
 
-
+.m150{
+  margin-left: -50px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
 .content_area{
   height: 200px;
   background-color: rgb(67,67,67);
 }
 
 .content_area h1{
+  padding-top: 70px;
   font-size: 48px;
   color: white;
 }
-
+.content_area:hover{
+  background-color: gray;
+}
+@media (max-width:1200px) {
+  .d1200{margin: 0px;}
+}
 
 
 
@@ -64,4 +77,7 @@ footer{
   background-color: black;
   font-size: 18px;
   color: white;
+}
+footer p{
+  margin-top: 20px;
 }
